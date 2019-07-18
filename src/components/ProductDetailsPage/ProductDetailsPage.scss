@@ -1,0 +1,44 @@
+.product-details {
+    position: relative;
+    padding: 2rem;
+    background: white;
+    margin: 1%;
+    text-align: center;
+ 
+    img {
+        display: block;
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    p.price {
+        display: inline-block;
+        font-size: 24px;
+        line-height: 28px;
+        color: #00a1b4;
+        padding: 3px 0px;
+    }
+}
+button {
+    &.btn {
+        color: #fff;
+        background-color: #007bff;
+        padding: .8rem;
+
+        border: 1px solid  #007bff;
+        border-radius: 5px;
+        
+        cursor: pointer;
+    }
+
+    &.back-button {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+
+        background-color: #818181;
+        border: 1px solid  #747474;
+    }
+}
+
